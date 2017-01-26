@@ -1,5 +1,5 @@
 # kafka-script
-Python3 で作成した Apache Kafka　用のスクリプトです。
+Python3 で作成した Apache Kafka 用のスクリプトです。
 
 ## 注意
 * このスクリプトは MacOS 上で動作確認をしています。
@@ -11,6 +11,7 @@ $ pip install kafka-python lz4tools xxbash
 ```
 ## 使用方法
 * Producer
+
 引数で渡したファイルの内容を１行ずつ読み込み、指定した Topic へ Produce します。
 ```
 $ python producer.py <broker_hosts> <topic> <input>
@@ -20,6 +21,7 @@ $ python producer.py localhost:9092 kafka-test sentences.txt
 ```
 
 * Consumer
+
 引数で指定された Topic からメッセージを取得します。
 ```
 $ python consumer.py <broker_hosts> <topic>
