@@ -1,6 +1,5 @@
 import sys
 from kafka import KafkaProducer
-sys.path.append('./lib')
 
 def usage():
     print ("Usage: python %s <broker_hosts> <topic> <input>" % __file__)
