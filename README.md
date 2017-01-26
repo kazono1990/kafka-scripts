@@ -21,7 +21,7 @@ $ python producer.py localhost:9092 kafka-test sentences.txt
 ```
 
 ### Consumer
-引数で指定された Topic からメッセージを取得します。
+引数で指定された Topic からメッセージを Consume します。
 ```
 $ python consumer.py <broker_hosts> <topic>
 
